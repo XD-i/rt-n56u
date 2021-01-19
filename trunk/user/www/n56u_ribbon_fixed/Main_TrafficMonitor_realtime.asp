@@ -41,7 +41,7 @@ var net_chart_rt = {
         spacingRight: 15
     },
     title : {
-        text: 'Wired: LAN',
+        text: 'Wired: WAN',
         align: 'center'
     },
     xAxis: {
