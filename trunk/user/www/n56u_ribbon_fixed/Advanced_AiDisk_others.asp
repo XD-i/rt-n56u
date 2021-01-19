@@ -395,8 +395,8 @@ function done_validating(action){
                                             <th width="50%"><#StorageU3Off#></th>
                                             <td>
                                                 <select name="usb3_disable" class="input">
-                                                    <option value="0" <% nvram_match_x("", "usb3_disable", "0", "selected"); %>><#checkbox_No#> (*)</option>
-                                                    <option value="1" <% nvram_match_x("", "usb3_disable", "1", "selected"); %>><#checkbox_Yes#> (<#StorageU3Desc#>)</option>
+                                                    <option value="0" <% nvram_match_x("", "usb3_disable", "0", "selected"); %>><#checkbox_No#></option>
+                                                    <option value="1" <% nvram_match_x("", "usb3_disable", "1", "selected"); %>><#checkbox_Yes#> (<#StorageU3Desc#>) (*)</option>
                                                 </select>
                                                 &nbsp;<span style="color:#888">* need reboot</span>
                                             </td>
@@ -431,8 +431,8 @@ function done_validating(action){
                                             <th width="50%"><#StorageAutoChkDsk#></th>
                                             <td>
                                                 <select name="achk_enable" class="input">
-                                                    <option value="0" <% nvram_match_x("", "achk_enable", "0", "selected"); %>><#checkbox_No#> (*)</option>
-                                                    <option value="1" <% nvram_match_x("", "achk_enable", "1", "selected"); %>><#checkbox_Yes#></option>
+                                                    <option value="0" <% nvram_match_x("", "achk_enable", "0", "selected"); %>><#checkbox_No#></option>
+                                                    <option value="1" <% nvram_match_x("", "achk_enable", "1", "selected"); %>><#checkbox_Yes#> (*)</option>
                                                 </select>
                                             </td>
                                         </tr>
