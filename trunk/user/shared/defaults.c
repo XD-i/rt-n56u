@@ -380,7 +380,7 @@ struct nvram_pair router_defaults[] = {
 	{ "sh_num", "0" },
 	{ "computer_name", BOARD_NAME },
 	{ "pcache_reclaim", "2" },
-	{ "usb3_disable", "0" },
+	{ "usb3_disable", "1" },
 	{ "u2ec_enable", "1" },
 	{ "lprd_enable", "1" },
 	{ "rawd_enable", "0" },
@@ -402,7 +402,7 @@ struct nvram_pair router_defaults[] = {
 	{ "aria_pport", "16888" },
 	{ "aria_rport", "6800" },
 	{ "aria_ropen", "0" },
-	{ "hdd_spindt", "0" },
+	{ "hdd_spindt", "1" },
 	{ "hdd_apmoff", "0" },
 
 	{ "ip6_service", "" },
