@@ -387,7 +387,7 @@ function validate_wlphrase(s, v, obj){
                                             <th><a class="help_tooltip" href="javascript:void(0);" onmouseover="openTooltip(this, 0, 4);"><#WLANConfig11b_x_Mode11g_itemname#></a></th>
                                             <td>
                                                 <select name="rt_gmode" class="input" onChange="return change_common_rt(this, 'WLANConfig11b', 'rt_gmode')">
-                                                    <option value="2" <% nvram_match_x("","rt_gmode", "2","selected"); %>>b/g/n Mixed</option>
+                                                    <option value="2" <% nvram_match_x("","rt_gmode", "2","selected"); %>>b/g/n Mixed (*)</option>
                                                     <option value="1" <% nvram_match_x("","rt_gmode", "1","selected"); %>>b/g Mixed</option>
                                                     <option value="5" <% nvram_match_x("","rt_gmode", "5","selected"); %>>g/n Mixed</option>
                                                     <option value="3" <% nvram_match_x("","rt_gmode", "3","selected"); %>>n Only</option>
@@ -436,7 +436,7 @@ function validate_wlphrase(s, v, obj){
                                             <th><#WIFIGuestMCS#></th>
                                             <td>
                                                 <select name="rt_mcs_mode" class="input">
-                                                    <option value="0" <% nvram_match_x("", "rt_mcs_mode", "0", "selected"); %>><#checkbox_No#></option>
+                                                    <option value="0" <% nvram_match_x("", "rt_mcs_mode", "0", "selected"); %>><#checkbox_No#>(*)</option>
                                                     <option value="1" <% nvram_match_x("", "rt_mcs_mode", "1", "selected"); %>>HTMIX (1S) 45 Mbps</option>
                                                     <option value="2" <% nvram_match_x("", "rt_mcs_mode", "2", "selected"); %>>HTMIX (1S) 30 Mbps</option>
                                                     <option value="3" <% nvram_match_x("", "rt_mcs_mode", "3", "selected"); %>>HTMIX (1S) 15 Mbps</option>
